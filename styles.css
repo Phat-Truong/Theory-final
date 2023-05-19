@@ -188,6 +188,13 @@ display: flex;
 .aw-image img{
 width: 100%;
 }
+.cta-button{
+ transition: 0.5s ease-out;
+}
+.cta-button:hover{
+  cursor:pointer;
+   scale: 105%;
+}
 
 .social-proof{
   display: flex;
