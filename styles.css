@@ -190,6 +190,7 @@ width: 100%;
 }
 .cta-button{
  transition: 0.5s ease-out;
+  z-index: 999;
 }
 .cta-button:hover{
   cursor:pointer;
