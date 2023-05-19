@@ -301,8 +301,13 @@ width: 14vw;
 height: 3vh;
 border-radius: 5px;
 }
-.mail-input button{
+mail-input button{
   margin-top: 2vh;
+  transition: 0.5s ease-out;
+}
+.mail-input button:hover{
+  cursor: pointer;
+  scale: 105%;
 }
 .mail h3{
   font-style: normal;
